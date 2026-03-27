@@ -1,1 +1,121 @@
-# Nk3mttproject
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>My 3mttproject 1!</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<style>
+img  {
+        max-width: 100%;
+      }
+</style>
+  <body>
+
+    <header>
+      <h1>E-waste</h1>
+      <h2>Project Title: Re-Route</h2>
+    </header>
+    <img 
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/179/221/original/ewaste-blog-1-1-1024x683.jpg?1774311336"
+  alt=""
+      class="E-waste"
+    <nav>
+
+      <form>
+        <input type="search" name="q" placeholder="Search query" />
+        <input type="submit" value="Go!" />
+      </form>
+    </nav>
+    <main>
+        <h2>Problem</h2>
+      <ul> <li> 
+        <p>
+          Worries in Nigeria over continuous influx of used computers, phones, TVs
+
+Discarded electrical and electronic equipment (such as phones, laptops, fridges, sensors and TVs), which is referred to as e-waste is becoming a huge problem, needing urgent intervention globally.
+          
+          <p> </li>
+       <li>   This image shows a large pile of electronic waste (e-waste), consisting of various discarded household appliances and electronic devices.
+             </p></li>
+<li>E-waste is currently one of the world's fastest-growing waste streams, with an estimated 62 million tonnes generated globally in 2022—a figure projected to rise to 82 million tonnes by 2030. 
+          <p> </li>
+<li>Environmental and Health Impact
+Improperly managed e-waste piles like the one shown pose significant risks due to the toxic substances they contain:
+</li>     </p>
+       <li>   Hazardous Materials: Devices often contain lead (in CRTs and solder), mercury (in switches and backlights), cadmium (in batteries), and brominated flame retardants (in plastics).
+          <p> </li>
+<li>Soil and Water Contamination: When electronics sit in unregulated dumps, these toxins can leach into the soil, damaging fertility and entering the food chain. Rainwater can wash these chemicals into groundwater, contaminating drinking water sources.
+          </p></li>
+<li>Human Health Risks: Exposure to these substances can lead to severe health issues, including neurological damage, kidney problems, respiratory illnesses, and various cancers. Children and pregnant women are particularly vulnerable to these neurotoxic effects
+        </p></li>
+      
+      </ul>
+        <section>
+          <h3>THE USERS</h3>
+       <ol>   <li>
+          <p>
+            The "Paralyzed" Household User (B2C)
+Profile: Urban dwellers (Ages 18–40) who are environmentally conscious but time-poor.
+The Pain: They have a "junk drawer" or a pile of "good" waste (old cables, half-used paint, fast fashion) they don't want to bin, but they don't know who takes it.
+The Trigger: I want to recycle this, but the local council website is a 40-page PDF and the nearest center might be closed."
+          </p> </li>
+        <li>
+          <p>
+            The "Resource-Hungry" Organization (B2B/NGO)
+Profile:  Charity shops, vocational schools, community gardens, and "maker-spaces."
+The Pain: They often receive "donations" that are actually trash (costing them money to dispose of) while missing out on items they actually need.
+The Trigger: "We need 10 old monitors for our computer repair class, but we have no way to tell the neighborhood
+          </p>   </li>
+     <li>     <p>The Municipal Waste Officer (Public Sector)
+Profile: City officials or waste management contractors.
+The Pain: They deal with "contamination" (people putting the wrong things in recycling bins) which ruins entire batches of recyclables.
+The Trigger: "If we could just stop people from putting lithium batteries in the general trash, we’d save millions in fire damages and sorting costs."</p>   </li>
+       </ol>
+          <h3>Impact Analysis: Re-Route</h3>
+
+          <ol>    <li> <p>
+            Environmental Impact: Reducing the "Carbon Debt"
+Emissions Offset: Every laptop diverted from a landfill and reused saves 214kg of $CO_2$. For a pilot in a city like Lagos or Abuja, diverting just 1,000 devices is equivalent to taking 320 cars off Nigerian roads for a year.
+Preventing "Informal Burning": In areas like Alaba International or Olusosun, e-waste is often burned to recover copper, releasing toxic dioxins. Re-Route directs users to formal collection points (like those registered with NESREA), preventing soil and air poisoning.
+Water Safety: One smartphone battery can contaminate 60,000 liters of water. By ensuring batteries are recycled properly, we protect local groundwater in high-density urban areas. 
+          </p> </li>
+     <li>       Social & Economic Impact: Powering the "Kaba-Kaba" Economy
+Supporting the Repair Sector: Nigeria has a world-class informal repair culture (Computer Village, etc.). Re-Route digitizes this by sending "waste" directly to technicians who can harvest parts, reducing the cost of repairs for low-income students and entrepreneurs.
+Circular Jobs: We estimate that for every 10 tons of waste diverted through our platform, 3 new "Green Jobs" are supported in the sorting, logistics, and refurbishment sectors.
+Resource Recovery: Nigeria loses millions of Naira in "buried gold" (precious metals in electronics). Our app keeps these resources within the national borders, supporting a local circular economy.        
+     </li>
+         <p>
+      <li>      Behavioral Impact: Data-Driven Governance
+Mapping Waste Hotspots: Our backend provides a real-time heatmap of where specific waste types (e.g., plastics vs. e-waste) are generated. This allows the Lagos State Waste Management Authority (LAWMA) or similar bodies to optimize bin placement and truck routes.
+Point-of-Action Education: Instead of generic "don't litter" campaigns, we provide an interactive tool that rewards the user's curiosity with a local solution.
+      </li>   </p> </ol>
+          <h3>Scalability & Future Roadmap</h3>
+        <ol>  <li> Hyper-Local Expansion (The Nigeria Rollout)
+Phase 1 (Pilot): Launch in high-density tech hubs like Yaba (Lagos) and Abuja (Wuse/Garki). By focusing on areas with high gadget turnover, we can refine the AI labeling for common Nigerian e-waste.
+Phase 2 (Nationwide): Partner with LAWMA (Lagos), AEPB (Abuja), and private waste collectors (PSP operators). We will provide them with a "Waste Heatmap Dashboard" to help them optimize their truck routes based on where our users are scanning items
+        </li>
+      <li>    <p>Technical Scalability (The Modular API)
+API-as-a-Service: We will expose our "Waste Recognition Engine" as an API. E-commerce platforms (like Jumia or Konga) can integrate it into their checkout flows to offer "Trade-in" discounts at the point of sale.
+            Edge Computing: To support users in areas with poor 4G/5G connectivity, we will migrate the AI models from the cloud to On-Device Inference (TensorFlow Lite). This allows the app to identify waste offline, syncing location data only when a connection is restored.
+      </li>     </p>
+     <li>     The "Incentive" Layer (Gamification)
+Green Credits: We plan to integrate a blockchain-based "Green Token" system. Users who successfully donate items to verified hubs earn credits that can be redeemed for electricity units (IKEDC/EKEDC) or mobile data. This creates a powerful financial incentive for sustainable behavior.
+     </li>
+    <li>      <p>Global Adaptability
+            White-Labeling: The core architecture is "waste-agnostic." The same framework can be re-trained for European "Green Points" or American "Curbside" rules simply by swapping the backend database, making Re-Route a global solution for urban waste.
+    </p>  </li>
+    </ol>
+           🛠️ AI & Tool Disclosure
+Architecture & Brief: Brainstormed and structured with Gemini AI.
+Development: API integration logic and boilerplate code assisted by GitHub Copilot.
+Assets: Impact statistics derived from 2024–2026 climate manufacturing data.
+       </section>
+      
+  </body>
+</html>
+
