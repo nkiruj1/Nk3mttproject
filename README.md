@@ -103,6 +103,7 @@ Agencies like **LAWMA** and **NESREA** tracking waste hotspots and reducing land
 ## 🔗 Quick Links
 
 - **GitHub:** [nkiruj1/Nk3mttproject](https://github.com/nkiruj1/Nk3mttproject)
+- canva : https://canva.link/b7a83t1j9ye7tu6
 - **License:** MIT
 
 ---
